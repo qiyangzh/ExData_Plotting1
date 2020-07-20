@@ -5,5 +5,5 @@ data$Date <- as.Date(data$Date, format="%d/%m/%Y")
 data$Global_active_power <- as.numeric(data$Global_active_power)
 hist(data$Global_active_power, main="Global Active Power", 
      xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
-png("plot1.png", width=480, height=480)
+png("plot1.png", width=800, height=600)
 dev.off()
